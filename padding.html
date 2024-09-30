@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Caja con Capas y Explicaciones</title>
+    <style>
+        body {
+            background-color: #808080;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .caja-exterior {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .caja {
+            border: 10px solid #0000FF;
+            padding: 20px;
+        }
+
+        .contenido {
+            background-color: #FFA500;
+            width: 200px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+        }
+
+        .explicacion {
+            max-width: 600px;
+            margin-top: 20px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja-exterior">
+        <div class="caja">
+            <div class="contenido">
+                Contenido de la caja
+            </div>
+        </div>
+    </div>
+
+    <div class="explicacion">
+        <h2>Explicación del Modelo de Caja</h2>
+        
+        <h3>Content (Contenido)</h3>
+        <p>Es el área donde se muestra el contenido real del elemento, como texto, imágenes o cualquier otro tipo de medio. En este ejemplo, es el área naranja con el texto "Contenido de la caja".</p>
+
+        <h3>Padding (Relleno)</h3>
+        <p>Es el espacio entre el contenido y el borde del elemento. Crea un área transparente alrededor del contenido. En nuestro ejemplo, es el espacio blanco entre el área naranja y el borde azul.</p>
+
+        <h3>Border (Borde)</h3>
+        <p>Es la línea que rodea el padding y el contenido. Puede tener diferentes estilos, colores y grosores. En este caso, es la línea azul sólida que rodea el área blanca del padding.</p>
+
+        <h3>Margin (Margen)</h3>
+        <p>Es el espacio exterior al borde. Crea una separación entre el elemento y otros elementos adyacentes. En nuestro ejemplo, es el área blanca que rodea el borde azul, separándolo del fondo gris.</p
 
