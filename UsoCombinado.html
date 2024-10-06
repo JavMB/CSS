@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UsoCombinado.css">
+</head>
+<body>
+    <h1 class="titulo">Título principal</h1>
 
+    <p id="destacado">Este es el primer párrafo con id "destacado". Sin embargo, tener dos elementos con el mismo id es incorrecto en HTML.</p>
+
+    <p id="destacado">Este es el segundo párrafo con id "destacado". Esto no debería funcionar como se espera, ya que los ids deben ser únicos.</p>
+
+    <p class="contenido">Este es el primer párrafo con la clase "contenido".</p>
+
+    <p class="contenido">Este es el segundo párrafo con la clase "contenido".</p>
+
+    <p class="contenido">Este es el tercer párrafo con la clase "contenido".</p>
+
+    <p class="contenido" id="especial">Este párrafo tiene tanto la clase "contenido" como el id "especial".</p>
+
+    <p>No se deben repetir ids en HTML porque deben ser únicos; hacerlo puede causar comportamientos inesperados en JavaScript y CSS. Cuando un elemento tiene tanto un id como una clase, el id tiene mayor peso en la especificidad, lo que significa que su estilo prevalecerá. Para priorizar una clase sobre un id, se puede usar !important, aunque esto debe hacerse con precaución.</p>
+
+    <p>Cuando se aplica tanto un id como una clase al mismo elemento HTML, el id tiene más peso (especificidad) que la clase en CSS. Esto significa que si hay estilos en conflicto, los definidos para el id prevalecerán sobre los de la clase.</p>
+</body>
+</html>
