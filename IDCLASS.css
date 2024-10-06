@@ -1,0 +1,31 @@
+#titulo{
+    color:rgb(205, 92, 92);
+    font-size: 55;
+}
+
+#enviar{
+    height: 100px;
+    margin: 100px;
+
+}
+
+.texto{
+    color: white;
+    background: red;    
+    height: 100px;
+    padding: 50px;
+    border: 20px solid blue; 
+
+    
+
+}
+
+.boton{
+    color: red;
+    width: 100px;
+    background: green;
+    
+
+}
+
+
